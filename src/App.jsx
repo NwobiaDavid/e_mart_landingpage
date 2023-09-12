@@ -7,10 +7,10 @@ function App() {
  
 
   return (
-    <>
+    <div className='google-font'>
     <Navbar />
     <One />
-    </>
+    </div>
   )
 }
 
