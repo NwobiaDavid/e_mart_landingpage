@@ -7,7 +7,7 @@ function App() {
  
 
   return (
-    <div className='google-font'>
+    <div className='google-font overflow-x-hidden'>
     <Navbar />
     <One />
     </div>

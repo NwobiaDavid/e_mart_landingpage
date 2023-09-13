@@ -9,21 +9,22 @@ export default function One() {
   //   };
 
   return (
-    <div className="grid grid-cols-1 mg:grid-cols-2 gap-4 h-[850px] ">
-      <div className="py-4 px-10 ">
-        <h1 className="text-4xl p-3">Introducing [Food Delivery Service]</h1>
-        <p className="text-lg leading-7">
-          Welcome to [Food Delivery Service], your one-stop solution for
+    <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4 h-[750px] ">
+
+      <div className="md:py-4 md:px-10 ">
+        <h1 className="text-4xl p-3">Introducing ebonyi e-mart</h1>
+        <p className="text-lg leading-7 break-keep">
+         <span className="text-2xl font-semibold pl-4">W</span>elcome to ebonyi e-Mart, your one-stop solution for
           convenient and hassle-free grocery shopping. Say goodbye to long
-          supermarket lines and heavy bags – we bring the store to your
+          crowded markets and costly transport fare – we bring the market to your
           doorstep. With our commitment to quality and a wide selection of fresh
           groceries and food items, we aim to redefine how you shop for
           essentials. Let us take care of your grocery needs while you focus on
           what matters most.
         </p>
-        <h1> What We Do: At [Food Delivery Service], </h1>
-        <p className="text-lg leading-7">
-          We specialize in delivering fresh, high-quality groceries and food
+        <h1  className="text-4xl p-3"> What We Do</h1>
+        <p className="text-lg leading-8 break-keep antialiased tracking-wider">
+        <span className="text-2xl pl-4 font-semibold">A</span>t ebonyi e-Mart, We specialize in delivering fresh, high-quality groceries and food
           directly to your door. Our dedicated team ensures you receive
           carefully selected products tailored to your preferences and dietary
           needs. With our user-friendly online platform, you can easily
@@ -31,24 +32,24 @@ export default function One() {
           Trust us for top-notch quality, from farm-fresh produce to sustainably
           sourced meats. We're your reliable partner in seamless grocery
           shopping, offering exceptional customer service. Experience
-          convenience, quality, and personalized service with [Food Delivery
-          Service]. Order today and enjoy more of what you love.
+          convenience, quality, and personalized service with ebonyi e-Mart. Order today and enjoy more of what you love.
         </p>
       </div>
 
-      <div className="flex text-center flex-col items-center justify-center ">
+      <div className="flex text-center flex-col px-9 items-center justify-center ">
         <div className="h-[50%] flex flex-col justify-around">
           <div>
             <h2 className="text-4xl font-bold">
               Don't Miss Out on Exclusive Savings, Sign Up Today!
             </h2>
             <p>
-              By inputting your email, you automatically get a{' '}
-              <span className="font-bold ">10%</span>iscount for 12 months on
-              every order.{' '}
+              By signing up with your email, you automatically get a{' '}
+              <span className="font-bold ">10%</span>discount for 12 months on
+              every order. So what are you waiting for?{' '}
+              This campaign only lasts for one week, so act fast.
             </p>
           </div>
-          <div className="bg-gray-100 mt-10 rounded-lg w-full flex items-center justify-center h-[26%] ">
+          <div className="bg-gray-100 mt-3 rounded-lg w-full flex items-center justify-center h-[26%] ">
             <form action="#" className="relative w-[50%]" method="post">
               <input
                 className="outline-none w-full rounded-full px-3 py-3"
